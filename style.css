@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, pink, hotpink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: hotpink;
+}
+
+#message {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background: hotpink;
+  color: white;
+}
+
+#noBtn {
+  background: lightgray;
+}
